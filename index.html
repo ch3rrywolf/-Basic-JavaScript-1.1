@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Basic JavaScript-1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <select onchange="myFont(this)" >
+                    <option >Arial</option>
+                    <option >Serif</option>
+                    <option >Times New Roman</option>
+                    <option >Helvetica</option>
+                  </select>
+
+                  <select onchange="mysize(this)">
+                    <option>xx-small</option>
+                    <option>x-small</option>
+                    <option>small</option>
+                    <option>medium</option>
+                    <option>large</option>
+                    <option>x-large</option>
+                    <option>xx-large</option>
+                    
+                  </select>
+                   
+                  
+
+        <input type="button" name="B1" value="B" onclick="bold()">
+        <input type="button" name="B2" value="I" onclick="italic()">
+        <input type="button" name="B3" value="U" onclick="underlined()">
+        <hr>
+
+        <h1>Basic Javascript</h1>
+
+        <p id="myP">Checkpoint(easy):<br>
+            We're going to make a program that looks like Microsoft Word.<br>
+        There will be one paragrah and a bunch of buttons.<br>
+    Each button will have an onclick attribute that will link to a different javascript function.<br>
+These buttons will have unique names and should do the following.</p>
+    </body>
+    <script src="main.js"></script>
+</html>
